@@ -215,7 +215,7 @@ footer a{
 }
 
 /* INSTAGRAM GALLERY SECTION */
-.instagram-gallery {
+.gallery {
 	/* height: 100vh; */
 	display: flex;
 	flex-wrap: wrap;
@@ -226,7 +226,7 @@ footer a{
 	align-content: center;
 }
 
-.gallery-item {
+.instagram-gallery-item {
   position:relative;
   height:500px;
   width:400px;
@@ -237,16 +237,15 @@ footer a{
   cursor:pointer;
 }
 
-.instagram-media {
-  background:#fff;
+
+.youtube-gallery-item {
+  position:relative;
+  width:680px;
+  height:400px;
+  object-fit:cover;
+  object-position:center;
+  flex:1 0 30rem;
+  cursor:pointer;
   border:0;
-  border-radius:3px;
-  box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
-  margin: 1px;
-  max-width:540px; 
-  min-width:326px;
-  padding:0; 
-  width:99.375%;
-  width:-webkit-calc(100% - 2px); 
-  width:calc(100% - 2px);
+  margin:1rem;
 }
