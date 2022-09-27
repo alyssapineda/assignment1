@@ -30,7 +30,24 @@
     </nav>
   </header>
 
-  <h1>Contact</h1>
-  
+  <h1 class="contact-heading" >Let's talk!</h1>
+  <main>
+    <form id="contact-field" method="post">
+      <h2 class="contact-description">please send in a message below if you would like to collaborate!</h2>
+      <form action="/action_page.php">
+        <fieldset class="contact-info" id="contact-info">
+         <label for="name">Your name*:</label>
+         <input type="text" id="name" name="name" placeholder="Your Name"><br>
+         <label for="email">Email*:</label>
+         <input type="email" id="email" name="email" placeholder="Your Email"><br>
+         <label for="subject">Subject*:</label>
+         <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+         <label for="message">Your Message*:</label>
+         <textarea id="message" placeholder="Type your Message Here...." required></textarea>
+         <input class="button" type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
