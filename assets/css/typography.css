@@ -33,7 +33,7 @@ p {
 }
 
 .social-heading {
-  font-size:1.75rem;
+  font-size:28px;
   text-transform:capitalize;
 }
 
@@ -70,21 +70,21 @@ p {
 
 .btn a{
   text-decoration:none;
-  font-size:1.5rem;
+  font-size:24px;
   font-weight:400;
   text-transform:capitalize;
   color:#ffffff;
-  padding:0.313rem 1.88rem;
+  padding:5px 30px;
   display:inline-block;  
 }
 
 .btn a:hover {
-  color:#210f70;
+  color:rgb(33, 15, 112);
   transition:color 400ms;
 }
 
-.see-more a{
-  font-size:1.5rem;
+.social-link a{
+  font-size:24px;
   float:right;
   font-weight:400;
   text-decoration:none;
@@ -93,15 +93,15 @@ p {
   cursor:pointer;
 }
 
-.see-more a::after {
+.social-link a::after {
   content:'    \2192'
 }
 
-.see-more a:hover {
+.social-link a:hover {
   color:#fff;
   transition:400ms;
   border:none;
-  border-radius:1rem;
+  border-radius:16px;
   background-color:rgb(231, 231, 231);
   padding: 0 10px;
 }
