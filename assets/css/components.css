@@ -221,20 +221,6 @@ footer a{
   margin:1rem;
 }
 
-.contact-heading {
-  display:flex;
-  justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-
-.contact-description {
-  font-size:1.1rem;
-  font-weight:lighter;
-  display:flex;
-  justify-content: center;
-}
-
 
 /* CONTACT PAGE */
 form{
@@ -266,6 +252,23 @@ label {
   margin-bottom:0.6rem;
 }
 
-/* ABOUT PAGE */
+.contact-heading {
+  display:flex;
+  justify-content: center;
+	align-items: center;
+	align-content: center;
+}
 
+/* ABOUT PAGE */
+.about-img {
+  width:100%;
+}
+
+.card {
+  background-color:#fff;
+  padding:10px 20px;
+  border-radius:6px;
+  box-shadow:3px 3px 3px rgba(0,0,0,0.2);
+  margin-bottom:20px;
+}
 

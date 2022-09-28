@@ -8,13 +8,15 @@ h1 {
   text-transform:capitalize;
 }
 
-.center-block h1 {
-  font-size:20vw;
+p {
+  font-weight:lighter;
+  font-size:1.1rem;
 }
+
 
 .nav-item a {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-decoration: none;
   transition: color 0.3s ease-out;
@@ -30,9 +32,8 @@ h1 {
   margin-bottom:10px;
 }
 
-h2 {
-  font-size:40px;
-  animation:fade-in 900ms;
+.social-heading {
+  font-size:28px;
   text-transform:capitalize;
 }
 
@@ -104,3 +105,9 @@ h2 {
   background-color:rgb(231, 231, 231);
   padding: 0 10px;
 }
+
+.contact-description {
+  display:flex;
+  justify-content: center;
+}
+
