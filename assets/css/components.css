@@ -174,7 +174,6 @@ li {
 /* SOCIAL MEDIA GALLERY SECTION */
 
 .gallery {
-	/* height: 100vh; */
 	display: flex;
 	flex-wrap: wrap;
   margin:1rem 1rem;
@@ -186,8 +185,8 @@ li {
 
 .instagram-gallery-item {
   position:relative;
-  height:520px;
-  width:400px;
+  height:32.5rem;
+  width:25rem;
   object-fit:cover;
   object-position:center;
   flex:1 0 22rem;
@@ -197,8 +196,8 @@ li {
 
 .youtube-gallery-item {
   position:relative;
-  width:680px;
-  height:400px;
+  width:42.5rem;
+  height:25rem;
   object-fit:cover;
   object-position:center;
   flex:1 0 30rem;
@@ -252,14 +251,14 @@ label {
 
 .card {
   background-color:#fff;
-  padding:10px 20px;
-  border-radius:6px;
-  box-shadow:3px 3px 3px rgba(0,0,0,0.2);
-  margin-bottom:20px;
+  padding:0.625rem 1.25rem;
+  border-radius:0.375rem;
+  box-shadow:0.19rem 0.19rem 0.19rem rgba(0,0,0,0.2);
+  margin-bottom:1.25rem;
 }
 
 footer {
-  height:200px;
+  height:12.5rem;
   background:#000;
   text-align:center;
   line-height:12.5rem;
