@@ -52,7 +52,7 @@ li {
   background-color:#000;
 }
 
-/* Media Queries */
+/* Media Query - navigation */
 @media(max-width:768px) {
   .hamburger {
     display:block; 
@@ -136,22 +136,7 @@ li {
 
 .see-more {
   display:block;
-  /* border:3px dashed red; */
-  width:100%;
   margin-bottom:2rem;
-}
-
-footer {
-  height:200px;
-  background:#000;
-  text-align:center;
-  line-height:12.5rem;
-}
-
-footer a{
-  color:white;
-  text-decoration:none;
-  text-transform: capitalize;
 }
 
 .button {
@@ -186,12 +171,13 @@ footer a{
 }
 
 
-/* INSTAGRAM GALLERY SECTION */
+/* SOCIAL MEDIA GALLERY SECTION */
+
 .gallery {
 	/* height: 100vh; */
 	display: flex;
 	flex-wrap: wrap;
-  margin:1rem 0;
+  margin:1rem 1rem;
   padding-bottom:3rem;
 	justify-content: center;
 	align-items: center;
@@ -200,7 +186,7 @@ footer a{
 
 .instagram-gallery-item {
   position:relative;
-  height:500px;
+  height:520px;
   width:400px;
   object-fit:cover;
   object-position:center;
@@ -272,3 +258,15 @@ label {
   margin-bottom:20px;
 }
 
+footer {
+  height:200px;
+  background:#000;
+  text-align:center;
+  line-height:12.5rem;
+}
+
+footer a{
+  color:white;
+  text-decoration:none;
+  text-transform: capitalize;
+}
