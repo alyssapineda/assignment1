@@ -76,7 +76,7 @@ li {
 
   .nav-menu {
     position:fixed;
-    left:-100%;
+    left:-105%;
     top:5rem;
     gap:0;
     height:100vh;
