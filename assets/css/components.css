@@ -152,24 +152,6 @@ li {
   color:#fff;
 }
 
-.center-btn {
-  border:none;
-  padding:0.625rem 0.625rem;
-  cursor:pointer;
-  border-radius:1rem;
-  background-color:rgba(255, 255, 255,0.2); 
-}
-
-.center-btn:hover {
-  border:none;
-  padding:0.625rem 0.625rem;
-  cursor:pointer;
-  border-radius:1rem;
-  background-color:#ffffff1a;
-  opacity:0.3;
-  transition:opacity 1000ms;
-}
-
 .social-heading {
   margin-top:1.3rem;
 }
