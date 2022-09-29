@@ -26,11 +26,15 @@ li {
   gap:1.3rem;
 }
 
-.navbar img {
-  height: 1.6rem;
+.navbar a {
   width: auto;
   justify-self: start;
   margin-left: 1.3rem;
+  cursor:pointer;
+}
+
+.navbar img {
+  height: 1.6rem;
 }
 
 .hamburger {
